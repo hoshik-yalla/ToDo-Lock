@@ -1,24 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
     <title>ToDo Lock | Foqus Extension</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--Landing Page Section-->
     <section class="landing">
-        <h1>ToDo Lock</h1>
-        <p class="desc">An open-source website extension to the app <a href="https://www.foqos.app/">Foqus</a></p>
-        <p>*Website looping video*</p>
-        <button id="tutorial_btn" onclick="scroll_to_tutorial()"></button>
+      <p class="desc">
+        An open-source website extension to the app
+        <a href="https://www.foqos.app/">Foqus</a>
+      </p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/wDchsz8nmbo?si=jlMUUL3xjnYHZsT3&amp;controls=0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <br>
+      <button id="tutorial_btn" onclick="document.getElementById('tutorial_section').scrollIntoView();">
+        How to Use?
+      </button>
     </section>
 
     <!--How to Use Section-->
-    <section class="tutorial">
-        <h2>How to use ToDo Lock?</h2>
+    <section class="tutorial" id="tutorial_section">
+      <h2>How to use ToDo Lock?</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/wDchsz8nmbo?si=jlMUUL3xjnYHZsT3&amp;controls=0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <br />
+      <button onclick="get_started()">Get Started!</button>
     </section>
 
     <script src="index.html"></script>
-</body>
+  </body>
 </html>

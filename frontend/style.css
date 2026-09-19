@@ -1,0 +1,41 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #171738;
+    color: #DFF3E4;
+    display: grid;
+    justify-content: center;
+}
+
+a {
+    color:#FFFFFF;
+    font-weight: bold;
+}
+
+p {
+    margin: 10%;
+    font-size: 300%;
+}
+
+.landing {
+    width:100vh;
+    height: 100vh;
+    background-color: #2E1760;
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tutorial {
+    width:100vh;
+    height: 100vh;
+    background-color: #2E1760;
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
